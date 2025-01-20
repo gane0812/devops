@@ -24,3 +24,7 @@ resource "azurerm_resource_group" "rg" {
   location = "East US"
 }
 
+resource "azurerm_resource_group" "rg_Test" {
+  name     = "rg_Test"
+  location = "East US"
+}
