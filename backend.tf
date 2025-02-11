@@ -13,7 +13,7 @@ resource "azurerm_storage_container" "tfstate" {
   container_access_type = "private"
 }
 
-
+/*
 terraform {
   backend "azurerm" {
     resource_group_name  = "rg" # Can be passed via `-backend-config=`"resource_group_name=<resource group name>"` in the `init` command.
@@ -21,4 +21,4 @@ terraform {
     container_name       = "tfstate"                 # Can be passed via `-backend-config=`"container_name=<container name>"` in the `init` command.
     key                  = "terraform.tfstate"        # Can be passed via `-backend-config=`"key=<blob key name>"` in the `init` command.
   }
-} 
+} */
